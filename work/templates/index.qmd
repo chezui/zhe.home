@@ -1,0 +1,26 @@
+---
+title: "An Epic Template"
+author:
+  name: "Zhe Cui"
+format:
+  html:
+    toc: true
+    code-fold: true
+    number-sections: false
+    html-math-method: katex
+    fig_retina: 2
+    fig_width: 6
+    fig_height: 4
+    dpi: 300
+draft: true
+execute:
+  freeze: auto
+abstract:
+  The start of an epic blog.
+
+---
+
+Hello World!
+
+$$P_{mkn}$$
+
