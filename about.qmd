@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+Hello, I'm Zhe - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.
+
+My goal with this site to is to write about the things I learn and find interesting.

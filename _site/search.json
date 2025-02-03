@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello, I’m Zhe - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.\nMy goal with this site to is to write about the things I learn and find interesting."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "zhe.home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]
