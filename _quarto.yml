@@ -3,25 +3,43 @@ project:
 
 website:
   title: "zhe.home"
+  favicon: favicon.ico
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: 'About'
+        href: about.qmd
     tools:
-      - search
-      - fullscreen
       - icon: github
         href: https://www.github.com/chezui
-    repo-url
+      - icon: twitter-x
+        href: https://www.x.com/_zhecui
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cuizhe
+  repo-url: https://github.com/chezui/zhe.home
+  repo-actions: [source, edit, issue]
+  draft-mode: unlinked
+  twitter-card: true
+  open-graph: true
+
+
 
 format:
   html:
+    toc: true
+    code-copy: true
     theme:
       light: flatly
       dark: darkly
     css: styles.css
-    toc: true
-
-editor: visual
+    include-in-header:
+      text: |
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDEH43W3HC"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LDEH43W3HC');
+        </script>
+editor: source 
 

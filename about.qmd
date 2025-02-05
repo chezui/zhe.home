@@ -1,7 +1,48 @@
 ---
-title: "About"
----
+title: "Zhe Cui (崔哲)"
+about:
+  template: trestles
+  links:
+  - icon: twitter-x
+    text: X
+    href: https://twitter.com/_zhecui
+  - icon: github
+    text: Github
+    href: https://github.com/chezui
+  image-shape: rounded 
+  image: mug.png
+  image-width: 12em
 
-Hello, I'm Zhe - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.
+---
+<audio id='player' src="../name.mp3" type="audio/mpeg">
+</audio>
+<p><button onclick="document.getElementById('player').play()"
+style="font-size: 14px; border-radius: 7px;">Pronunciation 🗣 <b>Juh Sway</b></button></p>
+            
+Hello, I'm Zhe Cui (崔哲) - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.
 
 My goal with this site to is to write about the things I learn and find interesting.
+
+## Work Experience
+
+#### Senior Data Scientist, Snap Inc. (2024 - Present)
+
+* Recommender Systems, Content Understanding
+  
+Data Scientist, Meta Platforms (2017 - 2024)
+- Ecosystem Data Science, Ads Product Platform, Product Foundation
+  
+Data Scientist, Bell Canada (2015 - 2017)
+- Customer Operations
+  
+Research Assistant, University of Toronto (2012 - 2015)
+- Resource Allocation in Next-Gen Heterogeneous Networks
+  
+Internships: Apple, ON Semiconductor, Magnum Semiconductor
+- Signal Processing, Machine Learning, Embedded Systems
+
+## Education
+
+- MASc in Electrical Engineering, University of Toronto (2015)
+- BASc in Electrical Engineering, University of Waterloo (2012)
+- International Exchange, National University of Singapore (2010)

@@ -1,1 +1,10 @@
 /* css styles */
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
+
+p {
+  text-align: justify
+}
+
+body {
+      font-family: "Computer Modern Sans", sans-serif;
+}
