@@ -42,6 +42,7 @@ Aliquam viverra, augue eu rutrum tristique, risus augue mollis diam, quis feugia
 
 ```{r}
 library(tidyverse)
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
 ```
 
 ```{python}

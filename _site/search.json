@@ -2,15 +2,57 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Zhe Cui (崔哲)",
     "section": "",
-    "text": "Hello, I’m Zhe - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.\nMy goal with this site to is to write about the things I learn and find interesting."
+    "text": "Pronunciation 🗣 Juh Sway\nHello, I’m Zhe Cui (崔哲) - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.\nMy goal with this site to is to write about the things I learn and find interesting."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "zhe.home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn Epic Template\n\n\n \n\nThe start of an epic blog.\n\n\n\nFeb 2, 2025\nZhe Cui\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "work/templates/index.html",
+    "href": "work/templates/index.html",
+    "title": "An Epic Template",
+    "section": "",
+    "text": "Hello World!\nP_{mkn}"
+  },
+  {
+    "objectID": "work/templates/index.html#intro",
+    "href": "work/templates/index.html#intro",
+    "title": "An Epic Template",
+    "section": "Intro",
+    "text": "Intro\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere id nunc eu convallis. Vivamus vel sem ultricies, porta lectus nec, consectetur massa. Cras sem ligula, tempus nec vulputate in, vulputate id sem. Curabitur viverra sit amet mi dictum convallis. Sed fermentum luctus massa eu ultricies. Aliquam fermentum auctor lorem, tristique malesuada urna malesuada non. Praesent bibendum interdum ligula ac iaculis. Maecenas fermentum mauris dolor, in tincidunt tortor tincidunt in. Aenean et bibendum ipsum. Vestibulum tincidunt sapien id tortor maximus, non tincidunt lorem rhoncus.\nPellentesque aliquam lectus sagittis, iaculis ligula nec, efficitur leo. Mauris a purus eget erat molestie fringilla. Donec non purus laoreet, convallis quam at, viverra libero. Pellentesque accumsan in quam ac aliquam. Suspendisse eget eleifend quam. Integer lacinia odio nisl, in lobortis est ultrices in. Sed vulputate urna sed luctus sagittis. Mauris porta tortor eu tortor auctor, sit amet tincidunt magna finibus. Curabitur tempus cursus purus, et volutpat tellus placerat quis. Quisque posuere, dui vel semper fermentum, arcu elit hendrerit ipsum, porta lacinia est tortor vitae velit. Donec euismod ipsum erat, ultrices blandit leo iaculis quis. Nulla consequat iaculis faucibus."
+  },
+  {
+    "objectID": "work/templates/index.html#part-deux.",
+    "href": "work/templates/index.html#part-deux.",
+    "title": "An Epic Template",
+    "section": "Part Deux.",
+    "text": "Part Deux.\nMauris semper ante felis, sed ornare justo aliquam at. Vivamus egestas nisl at ante elementum, ut tincidunt enim dignissim. Sed dolor augue, rutrum a sapien a, auctor rhoncus nunc. Fusce id orci eget lectus congue sagittis sit amet vitae nulla. Proin ac gravida purus, sed rutrum nunc. Proin facilisis ante in purus pellentesque rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In sodales gravida turpis ut dapibus. Donec consectetur, purus non consequat porttitor, elit tellus dapibus felis, ut pulvinar velit massa a ex. Cras maximus volutpat sapien non egestas.\nIn venenatis felis vel purus commodo, et interdum leo ultricies. Mauris tincidunt condimentum tortor. Fusce volutpat, lectus vel mattis luctus, tellus arcu facilisis purus, hendrerit rutrum ligula elit id nibh. Sed tincidunt lorem ac rutrum dapibus. In hac habitasse platea dictumst. Sed non lacinia mauris. Sed quis orci nec tortor venenatis ullamcorper. Sed id diam vitae purus dictum ullamcorper. Aenean tempus finibus orci a tempus. Quisque lacus magna, luctus vel magna eu, venenatis placerat leo. Nulla non justo vehicula, blandit dui id, laoreet lorem. Suspendisse porta, ante vitae rutrum varius, sem tortor sagittis augue, ac malesuada ante sem sed dui. Nunc dapibus vulputate laoreet. Curabitur dignissim, metus a aliquet egestas, elit ante consequat erat, a rhoncus risus neque vitae augue. Aliquam gravida tortor in nulla vestibulum porttitor quis vel nulla.\nAliquam viverra, augue eu rutrum tristique, risus augue mollis diam, quis feugiat dolor ipsum a tortor. Proin hendrerit sapien ornare interdum egestas. Aenean ligula orci, efficitur eu urna interdum, sollicitudin tempor nibh. Etiam tempus augue in interdum commodo. Mauris dapibus diam a leo suscipit aliquet. Fusce sed dolor ante. Nulla et leo turpis. Aenean nec lobortis sem."
+  },
+  {
+    "objectID": "work/templates/index.html#code",
+    "href": "work/templates/index.html#code",
+    "title": "An Epic Template",
+    "section": "Code",
+    "text": "Code\n\n\nCode\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\n\n\n\n\n\n\n\n\n\n\n\nCode\nfor x in range(10):\n  print(x**x)\n\n\n1\n1\n4\n27\n256\n3125\n46656\n823543\n16777216\n387420489"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "Zhe Cui (崔哲)",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nSenior Data Scientist, Snap Inc. (2024 - Present)\n\nRecommender Systems, Content Understanding\n\nData Scientist, Meta Platforms (2017 - 2024) - Ecosystem Data Science, Ads Product Platform, Product Foundation\nData Scientist, Bell Canada (2015 - 2017) - Customer Operations\nResearch Assistant, University of Toronto (2012 - 2015) - Resource Allocation in Next-Gen Heterogeneous Networks\nInternships: Apple, ON Semiconductor, Magnum Semiconductor - Signal Processing, Machine Learning, Embedded Systems"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Zhe Cui (崔哲)",
+    "section": "Education",
+    "text": "Education\n\nMASc in Electrical Engineering, University of Toronto (2015)\nBASc in Electrical Engineering, University of Waterloo (2012)\nInternational Exchange, National University of Singapore (2010)"
   }
 ]
