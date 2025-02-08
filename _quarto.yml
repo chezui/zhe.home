@@ -31,15 +31,6 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    include-in-header:
-      text: |
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDEH43W3HC"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-LDEH43W3HC');
-        </script>
+    include-in-header: schema.html
 editor: source 
 

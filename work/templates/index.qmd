@@ -12,7 +12,7 @@ format:
     fig_retina: 2
     fig_width: 6
     fig_height: 4
-    dpi: 300
+    dpi: 400
 draft: false
 execute:
   freeze: auto
@@ -49,3 +49,46 @@ ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
 for x in range(10):
   print(x**x)
 ```
+
+```{mermaid}
+graph TD;
+    A[Start] --> B{Is it?};
+    B -->|Yes| C[Do something];
+    B -->|No| D[Do something else];
+    C --> E[End];
+    D --> E[End];
+```
+
+## Tables
+
+```{r}
+# Create a simple table using R
+knitr::kable(head(mtcars), caption = "A simple table of the mtcars dataset")
+```
+
+## Interactive Plot
+
+```{r}
+# Create an interactive plot using plotly
+library(plotly)
+p <- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+ggplotly(p)
+```
+
+## Math
+
+You can also include inline math like this: $E = mc^2$ or display math:
+
+$$
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
+
+## Quarto Features
+
+Quarto supports a variety of features including citations, cross-references, and more. Here's an example of a citation:
+
+> "Quarto is a next-generation open-source scientific and technical publishing system." [@quarto]
+
+## References
+
+[^quarto]: Quarto is a next-generation open-source scientific and technical publishing system.  
