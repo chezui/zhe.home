@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Zhe Cui (崔哲)",
-    "section": "",
-    "text": "Pronunciation 🗣 Juh Sway\nHello, I’m Zhe Cui (崔哲) - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.\nMy goal with this site to is to write about the things I learn and find interesting."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "zhe.home",
-    "section": "",
-    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn Epic Template\n\n\n \n\nThe start of an epic blog.\n\n\n\nFeb 2, 2025\nZhe Cui\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "work/templates/index.html",
     "href": "work/templates/index.html",
     "title": "An Epic Template",
@@ -39,14 +25,28 @@
     "href": "work/templates/index.html#code",
     "title": "An Epic Template",
     "section": "Code",
-    "text": "Code\n\n\nCode\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\n\n\n\n\n\n\n\n\n\n\n\nCode\nfor x in range(10):\n  print(x**x)\n\n\n1\n1\n4\n27\n256\n3125\n46656\n823543\n16777216\n387420489"
+    "text": "Code\n\n\nCode\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\n\n\n\n\n\n\n\n\n\n\n\nCode\nfor x in range(10):\n  print(x**x)\n\n\n1\n1\n4\n27\n256\n3125\n46656\n823543\n16777216\n387420489\n\n\n\n\n\n\n\ngraph TD;\n    A[Start] --&gt; B{Is it?};\n    B --&gt;|Yes| C[Do something];\n    B --&gt;|No| D[Do something else];\n    C --&gt; E[End];\n    D --&gt; E[End];"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "zhe.home",
+    "section": "",
+    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn Epic Template\n\n\n\n\n\nThe start of an epic blog.\n\n\n\n\n\nFeb 2, 2025\n\n\nZhe Cui\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Zhe Cui (崔哲)",
+    "section": "",
+    "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲) - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.\nMy goal with this site to is to write about the things I learn and find interesting."
   },
   {
     "objectID": "about.html#work-experience",
     "href": "about.html#work-experience",
     "title": "Zhe Cui (崔哲)",
     "section": "Work Experience",
-    "text": "Work Experience\n\nSenior Data Scientist, Snap Inc. (2024 - Present)\n\nRecommender Systems, Content Understanding\n\nData Scientist, Meta Platforms (2017 - 2024) - Ecosystem Data Science, Ads Product Platform, Product Foundation\nData Scientist, Bell Canada (2015 - 2017) - Customer Operations\nResearch Assistant, University of Toronto (2012 - 2015) - Resource Allocation in Next-Gen Heterogeneous Networks\nInternships: Apple, ON Semiconductor, Magnum Semiconductor - Signal Processing, Machine Learning, Embedded Systems"
+    "text": "Work Experience\n\nSenior Data Scientist, Snap Inc. (2024 - Present)\n\nRecommender Systems, Content Understanding\n\n\n\nData Scientist, Meta Platforms (2017 - 2024)\n\nEcosystem Data Science, Ads Product Platform, Product Foundation\n\n\n\nData Scientist, Bell Canada (2015 - 2017)\n\nCustomer Operations\n\n\n\nResearch Assistant, University of Toronto (2012 - 2015)\n\nResource Allocation in Next-Gen Heterogeneous Networks\n\n\n\nInternships: Apple, ON Semiconductor, Magnum Semiconductor\n\nSignal Processing, Machine Learning, Embedded Systems"
   },
   {
     "objectID": "about.html#education",
@@ -54,5 +54,96 @@
     "title": "Zhe Cui (崔哲)",
     "section": "Education",
     "text": "Education\n\nMASc in Electrical Engineering, University of Toronto (2015)\nBASc in Electrical Engineering, University of Waterloo (2012)\nInternational Exchange, National University of Singapore (2010)"
+  },
+  {
+    "objectID": "work/templates/index.html#tables",
+    "href": "work/templates/index.html#tables",
+    "title": "An Epic Template",
+    "section": "Tables",
+    "text": "Tables\n\n\nCode\n# Create a simple table using R\nknitr::kable(head(mtcars), caption = \"A simple table of the mtcars dataset\")\n\n\n\nA simple table of the mtcars dataset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1"
+  },
+  {
+    "objectID": "work/templates/index.html#interactive-plot",
+    "href": "work/templates/index.html#interactive-plot",
+    "title": "An Epic Template",
+    "section": "Interactive Plot",
+    "text": "Interactive Plot\n\n\nCode\n# Create an interactive plot using plotly\nlibrary(plotly)\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nCode\np &lt;- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\nggplotly(p)"
+  },
+  {
+    "objectID": "work/templates/index.html#math",
+    "href": "work/templates/index.html#math",
+    "title": "An Epic Template",
+    "section": "Math",
+    "text": "Math\nYou can also include inline math like this: E = mc^2 or display math:\n\n\\int_0^\\infty e^{-x^2} \\, dx = \\frac{\\sqrt{\\pi}}{2}"
+  },
+  {
+    "objectID": "work/templates/index.html#quarto-features",
+    "href": "work/templates/index.html#quarto-features",
+    "title": "An Epic Template",
+    "section": "Quarto Features",
+    "text": "Quarto Features\nQuarto supports a variety of features including citations, cross-references, and more. Here’s an example of a citation:\n\n“Quarto is a next-generation open-source scientific and technical publishing system.” [@quarto]"
+  },
+  {
+    "objectID": "work/templates/index.html#references",
+    "href": "work/templates/index.html#references",
+    "title": "An Epic Template",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "work/slide_template/index.html#introduction-to-data-science-in-electrical-engineering",
+    "href": "work/slide_template/index.html#introduction-to-data-science-in-electrical-engineering",
+    "title": "Data Science in Electrical Engineering",
+    "section": "Introduction to Data Science in Electrical Engineering",
+    "text": "Introduction to Data Science in Electrical Engineering\n\nOverview of data science\nImportance in electrical engineering"
+  },
+  {
+    "objectID": "work/slide_template/index.html#applications-of-data-science",
+    "href": "work/slide_template/index.html#applications-of-data-science",
+    "title": "Data Science in Electrical Engineering",
+    "section": "Applications of Data Science",
+    "text": "Applications of Data Science\n\nPredictive maintenance\nSmart grid optimization\nSignal processing"
+  },
+  {
+    "objectID": "work/slide_template/index.html#tools-and-technologies",
+    "href": "work/slide_template/index.html#tools-and-technologies",
+    "title": "Data Science in Electrical Engineering",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\n\nPython and R for data analysis\nMachine learning frameworks (e.g., TensorFlow, PyTorch)\nData visualization tools (e.g., Matplotlib, Seaborn)"
+  },
+  {
+    "objectID": "work/slide_template/index.html#case-studies",
+    "href": "work/slide_template/index.html#case-studies",
+    "title": "Data Science in Electrical Engineering",
+    "section": "Case Studies",
+    "text": "Case Studies\nPredictive Maintenance\n\nUse of sensors and data analytics\nReducing downtime and costs\n\nSmart Grid Optimization\n\nData-driven decision making\nEnhancing energy efficiency"
+  },
+  {
+    "objectID": "work/slide_template/index.html#conclusion",
+    "href": "work/slide_template/index.html#conclusion",
+    "title": "Data Science in Electrical Engineering",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nThe future of data science in electrical engineering\nOpportunities for innovation and research"
+  },
+  {
+    "objectID": "work/slide_template/index.html#r-code",
+    "href": "work/slide_template/index.html#r-code",
+    "title": "An Epic Slide Deck",
+    "section": "R Code",
+    "text": "R Code"
+  },
+  {
+    "objectID": "work/slide_template/index.html#python-code",
+    "href": "work/slide_template/index.html#python-code",
+    "title": "An Epic Slide Deck",
+    "section": "Python Code",
+    "text": "Python Code\n\n\n1\n1\n4\n27\n256\n3125\n46656\n823543\n16777216\n387420489"
+  },
+  {
+    "objectID": "work/slide_template/index.html#simple-table",
+    "href": "work/slide_template/index.html#simple-table",
+    "title": "An Epic Slide Deck",
+    "section": "Simple Table",
+    "text": "Simple Table\n\n\n\nA simple table of the mtcars dataset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1"
   }
 ]

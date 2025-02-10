@@ -11,6 +11,8 @@ website:
     tools:
       - icon: github
         href: https://www.github.com/chezui
+      - icon: "{{< iconify ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=qVWbd6wAAAAJ
       - icon: twitter-x
         href: https://www.x.com/_zhecui
       - icon: linkedin
