@@ -22,6 +22,9 @@ function playAudio() {
 }
 </script>
 
-Hello, I'm Zhe Cui (崔哲) - an electrical engineer by trade and now working as a Senior Data Scientist at Snap Inc. working on recommender systems. My interests are in machine learning, statistics, signal processing and econometrics.
+Hello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.
 
-My goal with this site to is to write about the things I learn and find interesting.
+I like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.
+
+If any of that sounds interesting, stick around.
+
