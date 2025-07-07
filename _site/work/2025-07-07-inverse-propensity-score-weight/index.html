@@ -9,7 +9,7 @@
 <meta name="author" content="Zhe Cui">
 <meta name="dcterms.date" content="2025-07-07">
 
-<title>[WIP] Selection Bias in Recommender Systems Engagement Logs – Zhe Cui (崔哲)</title>
+<title>[WIP] Selection Bias in Recommender Systems – Zhe Cui (崔哲)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -135,11 +170,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="[WIP] Selection Bias in Recommender Systems Engagement Logs – Zhe Cui (崔哲)">
-<meta property="og:description" content="Selection Bias in Engagement Logs from Recommender Systems">
+<meta property="og:title" content="[WIP] Selection Bias in Recommender Systems – Zhe Cui (崔哲)">
+<meta property="og:description" content="Selection Bias in Recommender Systems">
 <meta property="og:site_name" content="Zhe Cui (崔哲)">
-<meta name="twitter:title" content="[WIP] Selection Bias in Recommender Systems Engagement Logs – Zhe Cui (崔哲)">
-<meta name="twitter:description" content="Selection Bias in Engagement Logs from Recommender Systems">
+<meta name="twitter:title" content="[WIP] Selection Bias in Recommender Systems – Zhe Cui (崔哲)">
+<meta name="twitter:description" content="Selection Bias in Recommender Systems">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -371,7 +406,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">[WIP] Selection Bias in Recommender Systems Engagement Logs</h1>
+<h1 class="title">[WIP] Selection Bias in Recommender Systems</h1>
 </div>
 
 
@@ -398,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    Selection Bias in Engagement Logs from Recommender Systems
+    Selection Bias in Recommender Systems
   </div>
 </div>
 
@@ -408,8 +443,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="problem-statement" class="level2">
 <h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
-<p>When we use engagement logs from a recommender systems, we need to address the issue of selection bias. The problem is when we serve a recommendation to an user how do we know if the user would have engaged with the item even if we didn’t show it to them? There are other forms of bias like position bias where the position of the recommendation in the list affects the engagement.</p>
-<p>We would like to account of this bias when we analyze the engagement logs because</p>
+<p>The setup: we have a recommender system that serves items to users that we believe they will find engaging, we then log and analyze the engagement data to find insights for improvements. We find that videos about red pandas get 10x more watch time and 5x more shares than videos about model airplanes.</p>
+<p>When we use engagement logs from a recommender systems, we need to address the issue of selection bias. Using the engagement log data naively to make design and business decisions is not a good idea due to two major sources of recommendation bias:</p>
+<ol type="1">
+<li><strong>Selection Bias</strong>: Users only engage with items that we recommend them that we serve based on our ranking models expecting these items will be engaging (watch time, clicks, shares etc.).</li>
+<li><strong>Positional Bias</strong>: Users are more likely to engage with items that are placed higher in the feed (e.g.&nbsp;first few items in the feed).</li>
+</ol>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -427,11 +466,17 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>TODO make the flow diagram clearer… something doesn’t seem right.</p>
-<p>What is IPSW?</p>
-<p>Why do we need it?</p>
-<p>Background</p>
-<p>How do we use it?</p>
-<p>How to know if it works?</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {sql} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>SELECT </span>
+<span id="cb1-2"><a href="#cb1-2"></a>  user_id,</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  item_id,</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  event_time,</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  watch_time,</span>
+<span id="cb1-6"><a href="#cb1-6"></a>  num_likes,</span>
+<span id="cb1-7"><a href="#cb1-7"></a>  num_shares,</span>
+<span id="cb1-8"><a href="#cb1-8"></a>  num_subscribes,</span>
+<span id="cb1-9"><a href="#cb1-9"></a>  num_hides,</span>
+<span id="cb1-10"><a href="#cb1-10"></a>  num_reports</span>
+<span id="cb1-11"><a href="#cb1-11"></a>FROM engagement_log</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="quarto-features" class="level2">
 <h2 class="anchored" data-anchor-id="quarto-features">Quarto Features</h2>

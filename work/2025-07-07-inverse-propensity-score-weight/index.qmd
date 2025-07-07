@@ -27,8 +27,9 @@ abstract:
 The setup: we have a recommender system that serves items to users that we believe they will find engaging, we then log and analyze the engagement data to find insights for improvements. We find that videos about red pandas get 10x more watch time and 5x more shares than videos about model airplanes.
 
 When we use engagement logs from a recommender systems, we need to address the issue of selection bias. Using the engagement log data naively to make design and business decisions is not a good idea due to two major sources of recommendation bias:
-1) **Selection Bias**: Users only engage with items that we recommend them that we serve based on our ranking models expecting these items will be engaging (watch time, clicks, shares etc.).
-2) **Positional Bias**: Users are more likely to engage with items that are placed higher in the feed (e.g. first few items in the feed).
+
+  1. **Selection Bias**: Users only engage with items that we recommend them that we serve based on our ranking models expecting these items will be engaging (watch time, clicks, shares etc.).
+  2. **Positional Bias**: Users are more likely to engage with items that are placed higher in the feed (e.g. first few items in the feed).
 
 ```{mermaid, [^Flow]}
 graph LR
@@ -38,21 +39,7 @@ graph LR
     action --> log[Log]
 ```
 
-TODO make the flow diagram clearer... something doesn't seem right.
 
-```{sql, eval=FALSE}
-SELECT 
-  user_id,
-  item_id,
-  event_time,
-  watch_time,
-  num_likes,
-  num_shares,
-  num_subscribes,
-  num_hides,
-  num_reports
-FROM engagement_log
-```
 
 
 
