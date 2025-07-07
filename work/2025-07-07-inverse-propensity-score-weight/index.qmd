@@ -1,0 +1,96 @@
+---
+title: "[WIP] Inverse Propensity Score Weight in Recommender Systems"
+author:
+  name: "Zhe Cui"
+date: 2025-07-07
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-echo: false
+    code-line-numbers: true
+    number-sections: false
+    html-math-method: katex
+    fig_retina: 2
+    fig_width: 6
+    fig_height: 4
+    dpi: 400
+draft: true
+execute:
+  freeze: auto
+abstract:
+  The start of an epic blog.
+---
+
+Hello World!
+
+$$P_{mkn}$$
+
+## Intro
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere id nunc eu convallis. Vivamus vel sem ultricies, porta lectus nec, consectetur massa. Cras sem ligula, tempus nec vulputate in, vulputate id sem. Curabitur viverra sit amet mi dictum convallis. Sed fermentum luctus massa eu ultricies. Aliquam fermentum auctor lorem, tristique malesuada urna malesuada non. Praesent bibendum interdum ligula ac iaculis. Maecenas fermentum mauris dolor, in tincidunt tortor tincidunt in. Aenean et bibendum ipsum. Vestibulum tincidunt sapien id tortor maximus, non tincidunt lorem rhoncus.
+
+Pellentesque aliquam lectus sagittis, iaculis ligula nec, efficitur leo. Mauris a purus eget erat molestie fringilla. Donec non purus laoreet, convallis quam at, viverra libero. Pellentesque accumsan in quam ac aliquam. Suspendisse eget eleifend quam. Integer lacinia odio nisl, in lobortis est ultrices in. Sed vulputate urna sed luctus sagittis. Mauris porta tortor eu tortor auctor, sit amet tincidunt magna finibus. Curabitur tempus cursus purus, et volutpat tellus placerat quis. Quisque posuere, dui vel semper fermentum, arcu elit hendrerit ipsum, porta lacinia est tortor vitae velit. Donec euismod ipsum erat, ultrices blandit leo iaculis quis. Nulla consequat iaculis faucibus.
+
+## Part Deux.
+
+Mauris semper ante felis, sed ornare justo aliquam at. Vivamus egestas nisl at ante elementum, ut tincidunt enim dignissim. Sed dolor augue, rutrum a sapien a, auctor rhoncus nunc. Fusce id orci eget lectus congue sagittis sit amet vitae nulla. Proin ac gravida purus, sed rutrum nunc. Proin facilisis ante in purus pellentesque rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In sodales gravida turpis ut dapibus. Donec consectetur, purus non consequat porttitor, elit tellus dapibus felis, ut pulvinar velit massa a ex. Cras maximus volutpat sapien non egestas.
+
+In venenatis felis vel purus commodo, et interdum leo ultricies. Mauris tincidunt condimentum tortor. Fusce volutpat, lectus vel mattis luctus, tellus arcu facilisis purus, hendrerit rutrum ligula elit id nibh. Sed tincidunt lorem ac rutrum dapibus. In hac habitasse platea dictumst. Sed non lacinia mauris. Sed quis orci nec tortor venenatis ullamcorper. Sed id diam vitae purus dictum ullamcorper. Aenean tempus finibus orci a tempus. Quisque lacus magna, luctus vel magna eu, venenatis placerat leo. Nulla non justo vehicula, blandit dui id, laoreet lorem. Suspendisse porta, ante vitae rutrum varius, sem tortor sagittis augue, ac malesuada ante sem sed dui. Nunc dapibus vulputate laoreet. Curabitur dignissim, metus a aliquet egestas, elit ante consequat erat, a rhoncus risus neque vitae augue. Aliquam gravida tortor in nulla vestibulum porttitor quis vel nulla.
+
+Aliquam viverra, augue eu rutrum tristique, risus augue mollis diam, quis feugiat dolor ipsum a tortor. Proin hendrerit sapien ornare interdum egestas. Aenean ligula orci, efficitur eu urna interdum, sollicitudin tempor nibh. Etiam tempus augue in interdum commodo. Mauris dapibus diam a leo suscipit aliquet. Fusce sed dolor ante. Nulla et leo turpis. Aenean nec lobortis sem.
+
+## Code
+
+```{r}
+library(tidyverse)
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+```
+
+```{python}
+for x in range(10):
+  print(x**x)
+```
+
+```{mermaid}
+graph TD;
+    A[Start] --> B{Is it?};
+    B -->|Yes| C[Do something];
+    B -->|No| D[Do something else];
+    C --> E[End];
+    D --> E[End];
+```
+
+## Tables
+
+```{r}
+# Create a simple table using R
+knitr::kable(head(mtcars), caption = "A simple table of the mtcars dataset")
+```
+
+## Interactive Plot
+
+```{r}
+# Create an interactive plot using plotly
+library(plotly)
+p <- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+ggplotly(p)
+```
+
+## Math
+
+You can also include inline math like this: $E = mc^2$ or display math:
+
+$$
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
+
+## Quarto Features
+
+Quarto supports a variety of features including citations, cross-references, and more. Here's an example of a citation:
+
+> "Quarto is a next-generation open-source scientific and technical publishing system." [@quarto]
+
+## References
+
+[^quarto]: Quarto is a next-generation open-source scientific and technical publishing system.  
