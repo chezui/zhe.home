@@ -24,6 +24,7 @@ website:
   draft-mode: unlinked
   twitter-card: true
   open-graph: true
+  site-url: https://zhecui.ca
 
 
 format:
