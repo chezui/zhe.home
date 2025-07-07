@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Zhe Cui (崔哲)",
     "section": "",
-    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -12,68 +12,5 @@
     "title": "Zhe Cui (崔哲)",
     "section": "",
     "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.\nI like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.\nIf any of that sounds interesting, stick around.\nI’m always interested in connecting with like minded folks: feel free to reach me on X and LinkedIn."
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "",
-    "text": "Hello World!\nP_{mkn}"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#intro",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#intro",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Intro",
-    "text": "Intro\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere id nunc eu convallis. Vivamus vel sem ultricies, porta lectus nec, consectetur massa. Cras sem ligula, tempus nec vulputate in, vulputate id sem. Curabitur viverra sit amet mi dictum convallis. Sed fermentum luctus massa eu ultricies. Aliquam fermentum auctor lorem, tristique malesuada urna malesuada non. Praesent bibendum interdum ligula ac iaculis. Maecenas fermentum mauris dolor, in tincidunt tortor tincidunt in. Aenean et bibendum ipsum. Vestibulum tincidunt sapien id tortor maximus, non tincidunt lorem rhoncus.\nPellentesque aliquam lectus sagittis, iaculis ligula nec, efficitur leo. Mauris a purus eget erat molestie fringilla. Donec non purus laoreet, convallis quam at, viverra libero. Pellentesque accumsan in quam ac aliquam. Suspendisse eget eleifend quam. Integer lacinia odio nisl, in lobortis est ultrices in. Sed vulputate urna sed luctus sagittis. Mauris porta tortor eu tortor auctor, sit amet tincidunt magna finibus. Curabitur tempus cursus purus, et volutpat tellus placerat quis. Quisque posuere, dui vel semper fermentum, arcu elit hendrerit ipsum, porta lacinia est tortor vitae velit. Donec euismod ipsum erat, ultrices blandit leo iaculis quis. Nulla consequat iaculis faucibus."
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#part-deux.",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#part-deux.",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Part Deux.",
-    "text": "Part Deux.\nMauris semper ante felis, sed ornare justo aliquam at. Vivamus egestas nisl at ante elementum, ut tincidunt enim dignissim. Sed dolor augue, rutrum a sapien a, auctor rhoncus nunc. Fusce id orci eget lectus congue sagittis sit amet vitae nulla. Proin ac gravida purus, sed rutrum nunc. Proin facilisis ante in purus pellentesque rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In sodales gravida turpis ut dapibus. Donec consectetur, purus non consequat porttitor, elit tellus dapibus felis, ut pulvinar velit massa a ex. Cras maximus volutpat sapien non egestas.\nIn venenatis felis vel purus commodo, et interdum leo ultricies. Mauris tincidunt condimentum tortor. Fusce volutpat, lectus vel mattis luctus, tellus arcu facilisis purus, hendrerit rutrum ligula elit id nibh. Sed tincidunt lorem ac rutrum dapibus. In hac habitasse platea dictumst. Sed non lacinia mauris. Sed quis orci nec tortor venenatis ullamcorper. Sed id diam vitae purus dictum ullamcorper. Aenean tempus finibus orci a tempus. Quisque lacus magna, luctus vel magna eu, venenatis placerat leo. Nulla non justo vehicula, blandit dui id, laoreet lorem. Suspendisse porta, ante vitae rutrum varius, sem tortor sagittis augue, ac malesuada ante sem sed dui. Nunc dapibus vulputate laoreet. Curabitur dignissim, metus a aliquet egestas, elit ante consequat erat, a rhoncus risus neque vitae augue. Aliquam gravida tortor in nulla vestibulum porttitor quis vel nulla.\nAliquam viverra, augue eu rutrum tristique, risus augue mollis diam, quis feugiat dolor ipsum a tortor. Proin hendrerit sapien ornare interdum egestas. Aenean ligula orci, efficitur eu urna interdum, sollicitudin tempor nibh. Etiam tempus augue in interdum commodo. Mauris dapibus diam a leo suscipit aliquet. Fusce sed dolor ante. Nulla et leo turpis. Aenean nec lobortis sem."
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#code",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#code",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Code",
-    "text": "Code\n\n\nCode\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nCode\nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\n\n\n\n\n\n\n\n\n\n\n\nCode\nfor x in range(10):\n  print(x**x)\n\n\n1\n1\n4\n27\n256\n3125\n46656\n823543\n16777216\n387420489\n\n\n\n\n\n\n\ngraph TD;\n    A[Start] --&gt; B{Is it?};\n    B --&gt;|Yes| C[Do something];\n    B --&gt;|No| D[Do something else];\n    C --&gt; E[End];\n    D --&gt; E[End];"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#tables",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#tables",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Tables",
-    "text": "Tables\n\n\nCode\n# Create a simple table using R\nknitr::kable(head(mtcars), caption = \"A simple table of the mtcars dataset\")\n\n\n\nA simple table of the mtcars dataset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#interactive-plot",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#interactive-plot",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Interactive Plot",
-    "text": "Interactive Plot\n\n\nCode\n# Create an interactive plot using plotly\nlibrary(plotly)\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nCode\np &lt;- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()\nggplotly(p)"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#math",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#math",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Math",
-    "text": "Math\nYou can also include inline math like this: E = mc^2 or display math:\n\n\\int_0^\\infty e^{-x^2} \\, dx = \\frac{\\sqrt{\\pi}}{2}"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#quarto-features",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#quarto-features",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "Quarto Features",
-    "text": "Quarto Features\nQuarto supports a variety of features including citations, cross-references, and more. Here’s an example of a citation:\n\n“Quarto is a next-generation open-source scientific and technical publishing system.” [@quarto]"
-  },
-  {
-    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#references",
-    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#references",
-    "title": "Inverse Propensity Score Weight in Recommender Systems",
-    "section": "References",
-    "text": "References"
   }
 ]
