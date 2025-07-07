@@ -37,3 +37,6 @@ format:
     include-in-header: schema.html
 editor: source 
 
+execute:
+  freeze: auto
+
