@@ -1,4 +1,5 @@
 ---
+description: "Official homepage of Zhe Cui, Staff Data Scientist at Snapchat. Research, projects, blog on recommender systems, AI, machine learning, and ranking."
 listing:
   contents: work
   sort: "date desc"

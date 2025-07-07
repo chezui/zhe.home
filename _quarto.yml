@@ -1,8 +1,10 @@
 project:
   type: website
+  resources:
+    - "*.mp3"
 
 website:
-  title: "zhe.home"
+  title: "Zhe Cui (崔哲)"
   favicon: favicon.ico
   navbar:
     right:
@@ -11,7 +13,7 @@ website:
     tools:
       - icon: github
         href: https://www.github.com/chezui
-      - icon: "{{< iconify ai google-scholar >}}"
+      - icon: mortarboard
         href: https://scholar.google.com/citations?user=qVWbd6wAAAAJ
       - icon: twitter-x
         href: https://www.x.com/_zhecui
@@ -22,7 +24,6 @@ website:
   draft-mode: unlinked
   twitter-card: true
   open-graph: true
-
 
 
 format:

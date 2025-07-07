@@ -1,5 +1,6 @@
 ---
 title: "Zhe Cui (崔哲)"
+description: "Data Science at Snap Inc. Writings on AI, Machine Learning, and Recommender Systems."
 about:
   template: trestles
   links:
@@ -17,7 +18,7 @@ style="font-size: 14px; border-radius: 7px;">Pronunciation 🗣 <b>Juh Sway</b><
 
 <script>
 function playAudio() {
-    var audio = new Audio('name.mp3');
+    var audio = new Audio('assets/name.mp3');
     audio.play();
 }
 </script>
@@ -27,4 +28,6 @@ Hello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally 
 I like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.
 
 If any of that sounds interesting, stick around.
+
+I'm always interested in connecting with like minded folks: feel free to reach me on [X](https://twitter.com/_zhecui) and [LinkedIn](https://linkedin.com/in/cuizhe).
 
