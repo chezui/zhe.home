@@ -387,28 +387,85 @@ function playAudio() {
 <p>If any of that sounds interesting, stick around.</p>
 <p>I’m always interested in connecting with like minded folks: feel free to reach me on <a href="https://twitter.com/_zhecui">X</a> and <a href="https://linkedin.com/in/cuizhe">LinkedIn</a>.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Contact Me">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Contact Me
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<form name="contact" netlify="">
-<p>
-<label>Name <input type="text" name="name"></label>
-</p>
-<p>
-<label>Email <input type="email" name="email"></label>
-</p>
-<p>
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+<style>
+    .contact-table td {
+      padding: 8px 6px;
+      vertical-align: middle;
+    }
+    .contact-table label {
+      display: block;
+      min-width: 80px;
+      font-weight: 500;
+      text-align: right;
+    }
+    .contact-table input[type="text"],
+    .contact-table input[type="email"],
+    .contact-table textarea {
+      width: 260px;
+      box-sizing: border-box;
+      padding: 6px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact-table textarea {
+      height: 80px;
+      resize: vertical;
+    }
+  </style>
+<table class="contact-table">
+<tbody><tr>
+<td>
+<label for="name">Name:</label>
+</td>
+<td>
+<input type="text" name="name" id="name">
+</td>
+</tr>
+<tr>
+<td>
+<label for="email">Email:</label>
+</td>
+<td>
+<input type="email" name="email" id="email">
+</td>
+</tr>
+<tr>
+<td>
+<label for="message">Message:</label>
+</td>
+<td>
+<textarea name="message" id="message"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div data-netlify-recaptcha="true">
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: right;">
 <button type="submit">
 Send
 </button>
-</p>
+</td>
+</tr>
+</tbody></table>
 </form>
+</div>
 </div>
 </div>
 
