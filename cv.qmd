@@ -9,22 +9,19 @@ format:
 ---
 # Skills
 
-**Programming:** Python, SQL, R, Scala, C/C++
-
-**Domains:** Recommender Systems, Content Quality and Understanding, Multi-sided Marketplace, Ads & Developer Ecosystem
-
-**Quantitative:** Machine Learning, MLOps,tatistics, Optimization, Large-scale Data Analysis, Causal Inference, Design of Experiments, Large Language Models, Data Modeling/ETL
-
-**Programming:** Python, SQL, R, Scala, C/C++
-
-**Technologies:** PyTorch, Dataswarm/Airflow, Spark, Presto, Hive, Alerts/Monitoring, Dashboards, R Tidyverse (ggplot2, dplyr, tidymodels), Git/Mercurial, $\LaTeX$
+| Category      | Skills & Tools |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Programming  | Python, SQL, R, Scala, C/C++ |
+| Domains      | Recommender Systems, Content Quality and Understanding, Multi-sided Marketplace, Ads & Developer Ecosystem |
+| Quantitative | Machine Learning, MLOps, Statistics, Optimization, Large-scale Data Analysis, Causal Inference, Design of Experiments, Large Language Models, Data Modeling/ETL |
+| Technologies | PyTorch, Dataswarm/Airflow, Spark, Presto, Hive, Alerts/Monitoring, Dashboards, R Tidyverse (ggplot2, dplyr, tidymodels), Git/Mercurial, $\LaTeX$ |
 
 # Work Experience
 
 ## Senior Data Scientist, Snap (2024–present) | Seattle, WA
 * **Ranking**: Driving Improvements in Recommended Content on Snapchat: Short Video Feed, Discover
 * **Content Quality and Understanding**: Signals, Models and Methodology for Improving Content Quality on Snapchat. 
-* **Strategic Insights**: Recommendations to CEO, CFO, VPsand other senior leadership on product direction and business impact.
+* **Strategic Insights**: Recommendations to CEO, CFO, VPs and other senior leadership on product direction and business impact.
 
 ## Data Scientist, Meta (2017–2023) | Seattle, WA
 
