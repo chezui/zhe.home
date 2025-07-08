@@ -22,7 +22,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/cuizhe
   repo-url: https://github.com/chezui/zhe.home
-  repo-actions: [source, edit, issue]
   draft-mode: unlinked
   twitter-card: true
   open-graph: true
