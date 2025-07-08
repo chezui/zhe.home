@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Programming: Python, SQL, R, Scala, C/C++\nDomains: Recommender Systems, Content Quality and Understanding, Multi-sided Marketplace, Ads & Developer Ecosystem\nQuantitative: Machine Learning, MLOps,tatistics, Optimization, Large-scale Data Analysis, Causal Inference, Design of Experiments, Large Language Models, Data Modeling/ETL\nProgramming: Python, SQL, R, Scala, C/C++\nTechnologies: PyTorch, Dataswarm/Airflow, Spark, Presto, Hive, Alerts/Monitoring, Dashboards, R Tidyverse (ggplot2, dplyr, tidymodels), Git/Mercurial, \\LaTeX"
+  },
+  {
+    "objectID": "cv.html#senior-data-scientist-snap-2024present-seattle-wa",
+    "href": "cv.html#senior-data-scientist-snap-2024present-seattle-wa",
+    "title": "CV",
+    "section": "Senior Data Scientist, Snap (2024–present) | Seattle, WA",
+    "text": "Senior Data Scientist, Snap (2024–present) | Seattle, WA\n\nRanking: Driving Improvements in Recommended Content on Snapchat: Short Video Feed, Discover\nContent Quality and Understanding: Signals, Models and Methodology for Improving Content Quality on Snapchat.\nStrategic Insights: Recommendations to CEO, CFO, VPsand other senior leadership on product direction and business impact."
+  },
+  {
+    "objectID": "cv.html#data-scientist-meta-20172023-seattle-wa",
+    "href": "cv.html#data-scientist-meta-20172023-seattle-wa",
+    "title": "CV",
+    "section": "Data Scientist, Meta (2017–2023) | Seattle, WA",
+    "text": "Data Scientist, Meta (2017–2023) | Seattle, WA\n\nImproved Advertiser Reliability Metric by 50% with Real-time Machine Learning: End-to-end development, deployment, and monitoring of GBDT models to predict API requests likely to OOM and timeout, dispatching expensive requests to an async tier. Reduced daily advertiser API errors from 6–7% to 3%.\nReduced Ads API Query Latency (p99) by 10%: Applied observational causal inference via propensity score modeling and regression discontinuity to identify features most impactful for slow queries and prioritized fixes with SWE teams.\nPredicted Errors Blocking Advertisers: Analyzed and modeled Ads Manager session data to identify error patterns predictive of uncompleted ad creation; findings informed roadmap planning and documentation improvements.\nDeveloped Framework to Estimate Revenue Impact of API Errors: Quantified ad spend loss due to campaign failures to evaluate business impact of SEVs and regressions.\nPersonalization & Recommender Systems: Led hypothesis-driven analyses and experiments to enhance Facebook App Navigation and Groups Ranking using two-tower neural network models."
+  },
+  {
+    "objectID": "cv.html#data-scientist-bell-canada-20152017-toronto-on-canada",
+    "href": "cv.html#data-scientist-bell-canada-20152017-toronto-on-canada",
+    "title": "CV",
+    "section": "Data Scientist, Bell Canada (2015–2017) | Toronto, ON, Canada",
+    "text": "Data Scientist, Bell Canada (2015–2017) | Toronto, ON, Canada\n\nCustomer Journey Analytics: Designed and implemented an Apache Spark algorithm to model event data for funnel analysis and pattern mining; used derived features to improve churn prediction lift by 20%.\nCustomer Churn Prediction: Built Random Forest, GBDT, neural network, GLM, and ensemble models to score churn risk and inform targeted retention offers.\nImproved Retail Store Internet Speed 10×: Identified outdated connections in demo units, built a business case to upgrade to fiber internet, reducing new customer signup time by 50%."
+  },
+  {
+    "objectID": "cv.html#research-assistant-university-of-toronto-20122015-toronto-on-canada",
+    "href": "cv.html#research-assistant-university-of-toronto-20122015-toronto-on-canada",
+    "title": "CV",
+    "section": "Research Assistant, University of Toronto (2012–2015) | Toronto, ON, Canada",
+    "text": "Research Assistant, University of Toronto (2012–2015) | Toronto, ON, Canada\n\nResource Allocation in Backhaul-Constrained Small Cell Networks: Developed distributed algorithms in MATLAB and Python for cooperative resource allocation in 5G networks. Published and presented at CISS 2014 (link)."
+  },
+  {
+    "objectID": "cv.html#internships-20072012",
+    "href": "cv.html#internships-20072012",
+    "title": "CV",
+    "section": "Internships (2007–2012)",
+    "text": "Internships (2007–2012)\n\nApple (2011), Magnum Semiconductor (2011), ON Semiconductor (2008–2010): Projects in signal processing (audio, biomedical), machine learning, and embedded systems."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zhe Cui (崔哲)",
