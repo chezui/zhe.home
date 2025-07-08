@@ -1,11 +1,33 @@
 ---
-description: "Official homepage of Zhe Cui, Staff Data Scientist at Snapchat. Research, projects, blog on recommender systems, AI, machine learning, and ranking."
-listing:
-  contents: work
-  sort: "date desc"
-  type: default
-  feed: true
----
-> I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.
+title: "Zhe Cui (崔哲)"
+description: "Data Science at Snap Inc. Writings on AI, Machine Learning, and Recommender Systems."
+about:
+  template: trestles
+  links:
+  - icon: twitter-x
+    href: https://twitter.com/_zhecui
+  - icon: github
+    href: https://github.com/chezui
+  image-shape: rounded 
+  image: mug.png
+  image-width: 12em
 
 ---
+<p><button onclick="playAudio()"
+style="font-size: 14px; border-radius: 7px;">Pronunciation 🗣 <b>Juh Sway</b></button></p>
+
+<script>
+function playAudio() {
+    var audio = new Audio('assets/name.mp3');
+    audio.play();
+}
+</script>
+
+Hello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.
+
+I like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.
+
+If any of that sounds interesting, stick around.
+
+I'm always interested in connecting with like minded folks: feel free to reach me on [X](https://twitter.com/_zhecui) and [LinkedIn](https://linkedin.com/in/cuizhe).
+

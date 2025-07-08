@@ -70,6 +70,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="CV – Zhe Cui (崔哲)">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://zhecui.ca/">
+<meta property="og:image" content="https://zhecui.ca/mug.png">
+<meta property="og:site_name" content="Zhe Cui">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@_zhecui">
+<meta name="twitter:title" content="CV – Zhe Cui (崔哲)">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://zhecui.ca/mug.png">
+
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -441,6 +456,11 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

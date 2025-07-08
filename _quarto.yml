@@ -38,6 +38,8 @@ format:
       dark: darkly
     css: styles.css
     include-in-header: schema.html
+    link-external-newwindow: true
+
 editor: source 
 
 execute:

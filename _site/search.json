@@ -28,11 +28,46 @@
     "text": "Education\n\nMasters of Applied Science, Electrical Engineering, University of Toronto (2012–2015) Thesis: Resource Allocation in Backhaul Constrained Small-Cell Networks, Grade A\nBachelor of Applied Science, Electrical Engineering, University of Waterloo (2007–2012), Honors First Class\nInternational Exchange, Electrical Engineering, National University of Singapore (2010)"
   },
   {
+    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html",
+    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html",
+    "title": "[WIP] Selection Bias in Recommender Systems",
+    "section": "",
+    "text": "The setup: we have a recommender system that serves items to users that we believe they will find engaging, we then log and analyze the engagement data to find insights for improvements. We find that videos about red pandas get 10x more watch time and 5x more shares than videos about model airplanes.\nWhen we use engagement logs from a recommender systems, we need to address the issue of selection bias. Using the engagement log data naively to make design and business decisions is not a good idea due to two major sources of recommendation bias:\n\nSelection Bias: Users only engage with items that we recommend them that we serve based on our ranking models expecting these items will be engaging (watch time, clicks, shares etc.).\nPositional Bias: Users are more likely to engage with items that are placed higher in the feed (e.g. first few items in the feed).\n\n\n\n\n\n\ngraph LR\n    user[User] --&gt; recommender[Recommender]\n    recommender --&gt; exposure[Exposure]\n    exposure --&gt; action[Action]\n    action --&gt; log[Log]"
+  },
+  {
+    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#problem-statement",
+    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#problem-statement",
+    "title": "[WIP] Selection Bias in Recommender Systems",
+    "section": "",
+    "text": "The setup: we have a recommender system that serves items to users that we believe they will find engaging, we then log and analyze the engagement data to find insights for improvements. We find that videos about red pandas get 10x more watch time and 5x more shares than videos about model airplanes.\nWhen we use engagement logs from a recommender systems, we need to address the issue of selection bias. Using the engagement log data naively to make design and business decisions is not a good idea due to two major sources of recommendation bias:\n\nSelection Bias: Users only engage with items that we recommend them that we serve based on our ranking models expecting these items will be engaging (watch time, clicks, shares etc.).\nPositional Bias: Users are more likely to engage with items that are placed higher in the feed (e.g. first few items in the feed).\n\n\n\n\n\n\ngraph LR\n    user[User] --&gt; recommender[Recommender]\n    recommender --&gt; exposure[Exposure]\n    exposure --&gt; action[Action]\n    action --&gt; log[Log]"
+  },
+  {
+    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#quarto-features",
+    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#quarto-features",
+    "title": "[WIP] Selection Bias in Recommender Systems",
+    "section": "Quarto Features",
+    "text": "Quarto Features\nQuarto supports a variety of features including citations, cross-references, and more. Here’s an example of a citation:\n\n“Quarto is a next-generation open-source scientific and technical publishing system.” [@quarto]"
+  },
+  {
+    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#references",
+    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#references",
+    "title": "[WIP] Selection Bias in Recommender Systems",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "work/2025-07-07-inverse-propensity-score-weight/index.html#ideas",
+    "href": "work/2025-07-07-inverse-propensity-score-weight/index.html#ideas",
+    "title": "[WIP] Selection Bias in Recommender Systems",
+    "section": "Ideas",
+    "text": "Ideas\nPerfect — a blog post forces clarity and accessibility. You want it to feel like: 👉 “Here’s the real problem. Here’s why naive approaches fail. Here’s how smart people tackle it (and the limits).”\nHere’s a crisp outline I’d recommend for your blog post “Selection Bias in Recommender System Engagement Logs” — designed to teach your reader and yourself:\n\n\n📌 Title:\nSelection Bias in Recommender System Engagement Logs: The Hidden Trap in Offline Evaluation (and How to Fight It)\n\n\n\n🔹 Intro (set the hook)\n\nStart with a real-world example: “Imagine you’re testing a new recommender model offline. The logs say item A has double the click rate of item B — so you boost A. But when you launch, engagement drops. What happened?”\nState the thesis: Offline metrics can lie because of selection bias. This post explains why, and what to do about it.\n\n\n\n\n🔹 The core problem: Why your engagement logs are biased\n\nDiagram: user → recommender → exposure → action → log\nExplain exposure bias, positional bias, user bias.\nShow (or describe) a simple example: e.g. top slot always gets 10x clicks, no matter what you put there.\n\n\n\n\n🔹 Where this hurts us\n\nOffline evaluation: why naive click rates overestimate or underestimate true performance\nTraining models: why we learn the wrong preferences\nMarketplace fairness: why some items or creators stay buried\n\n\n\n\n🔹 The statistical fix: Inverse Propensity Score Weighting\n\nIntuition: “Adjust for how likely an item was to be shown in the first place.”\nShow formula: unbiased estimator of engagement\nExample: walk through toy data (small table: item, propensity, click, IPS weight)\nDiscuss variance: why small propensities are dangerous\nMitigation: clipping, self-normalized IPS\n\n\n\n\n🔹 Beyond IPS\n\nDoubly robust estimators\nDirect modeling / causal models\nDesign for exploration (logging randomization)\n\n\n\n\n🔹 Practical guidance\n\nIf you don’t know the logging propensities, what can you do?\nWhen is IPS worth using, when is it overkill?\nHow to design your system to reduce selection bias at the source\n\n\n\n\n🔹 Conclusion\n\nReinforce takeaway: “Logs don’t tell you the full truth. Selection bias is the silent killer of offline evaluation — but with the right tools, you can fight it.”\n\n\n\n\n✅ Why this will deepen your learning\nYou’ll have to:\n\nArticulate the problem clearly\nDo the math and make it accessible\nCode an example (even if just for yourself)\nThink critically about trade-offs\n\n\nIf you like, I can help you: 👉 draft the intro hook 👉 sketch the toy example data + math 👉 help you build a Quarto / Jupyter notebook to embed in your blog\nAre you thinking of publishing on Medium, personal site, or somewhere else?"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zhe Cui (崔哲)",
     "section": "",
-    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.\nI like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.\nIf any of that sounds interesting, stick around.\nI’m always interested in connecting with like minded folks: feel free to reach me on X and LinkedIn."
   },
   {
     "objectID": "about.html",

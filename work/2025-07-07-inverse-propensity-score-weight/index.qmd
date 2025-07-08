@@ -15,7 +15,7 @@ format:
     fig_width: 6
     fig_height: 4
     dpi: 400
-draft: true
+draft: false
 execute:
   freeze: auto
 abstract:
