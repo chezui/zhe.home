@@ -8,19 +8,21 @@ website:
   favicon: favicon.ico
   navbar:
     right:
-      - text: 'About'
-        href: about.qmd
       - text: 'CV'
         href: cv.qmd
     tools:
       - icon: github
         href: https://www.github.com/chezui
+        link-external-newwindow: true
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=qVWbd6wAAAAJ
+        link-external-newwindow: true
       - icon: twitter-x
         href: https://www.x.com/_zhecui
+        link-external-newwindow: true
       - icon: linkedin
         href: https://www.linkedin.com/in/cuizhe
+        link-external-newwindow: true
   repo-url: https://github.com/chezui/zhe.home
   draft-mode: unlinked
   twitter-card: true

@@ -29,7 +29,7 @@ I like problems that don’t have obvious answers. I like asking why something w
 
 If any of that sounds interesting, stick around.
 
-I'm always interested in connecting with like minded folks: feel free to reach me on [X](https://twitter.com/_zhecui) and [LinkedIn](https://linkedin.com/in/cuizhe).
+I'm always interested in connecting with like minded folks: feel free to reach me on [X](https://twitter.com/_zhecui), [LinkedIn](https://linkedin.com/in/cuizhe) or use the form below.
 
 :::{.callout-note title="Contact Me" collapse="true"}
 <form name="contact"
