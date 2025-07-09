@@ -50,7 +50,7 @@ I'm always interested in connecting with like minded folks: feel free to reach m
     .contact-table input[type="text"],
     .contact-table input[type="email"],
     .contact-table textarea {
-      width: 260px;
+      width: 100%;
       box-sizing: border-box;
       padding: 6px;
       font-size: 1em;
