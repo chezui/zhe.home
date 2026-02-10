@@ -1,7 +1,7 @@
 ---
 title: "CV"
 author: "Zhe Cui"
-date: 2025-07-07
+date: 2026-02-10
 format:
     html:
         theme: flatly
@@ -19,9 +19,10 @@ format:
 ## Industry Experience 
 
 ### Senior Applied Scientist, Snap (2024–present) | Seattle, WA
-* **Ranking**: Driving Improvements in Recommended Content on Snapchat: Short Video Feed, Discover
-* **Content Quality and Understanding**: Signals, Models and Methodology for Improving Content Quality on Snapchat. 
-* **Strategic Insights**: Recommendations to CEO, CFO, VPs and other senior leadership on product direction and business impact.
+* **Human Feedback and Preference Systems**: Owned the design and rollout of Snapchat’s first large-scale, content-level in-app survey system, defining preference dimensions, ceiling tests, and response models to convert user feedback into durable learning signals.
+* **LLM Evaluation and Standards**: Established evaluation methodology and reference tooling for LLM-powered content understanding, including preference-based metrics, slice-level analysis, and model–human disagreement diagnostics used to guide deployment and iteration decisions.
+* **Content Quality and Ranking Systems**: Set the technical direction for integrating human feedback, LLM-based understanding, and evaluation signals into short-form video and Discover ranking and policy decisions.
+* **Content Ecosystem Strategy**: Defined content quality and ranking strategy at the ecosystem level by translating human preference signals and model evaluation insights into executive decisions on product direction, growth tradeoffs, and platform health.
 
 ### Data Scientist, Meta (2017–2023) | Seattle, WA
 
