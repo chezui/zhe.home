@@ -18,7 +18,7 @@ format:
 
 ## Industry Experience 
 
-### Senior Data Scientist, Snap (2024–present) | Seattle, WA
+### Senior Applied Scientist, Snap (2024–present) | Seattle, WA
 * **Ranking**: Driving Improvements in Recommended Content on Snapchat: Short Video Feed, Discover
 * **Content Quality and Understanding**: Signals, Models and Methodology for Improving Content Quality on Snapchat. 
 * **Strategic Insights**: Recommendations to CEO, CFO, VPs and other senior leadership on product direction and business impact.
