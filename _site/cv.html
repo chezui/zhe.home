@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Zhe Cui">
-<meta name="dcterms.date" content="2026-02-10">
+<meta name="dcterms.date" content="2026-07-22">
 
 <title>CV – Zhe Cui (崔哲)</title>
 <style>
@@ -125,54 +125,13 @@ ul.task-list li input[type="checkbox"] {
   gtag('config', 'G-LDEH43W3HC');
 </script>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="CV – Zhe Cui (崔哲)">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Zhe Cui (崔哲)">
 <meta name="twitter:title" content="CV – Zhe Cui (崔哲)">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -204,7 +163,6 @@ window.Quarto = {
     <a href="https://scholar.google.com/citations?user=qVWbd6wAAAAJ" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mortarboard"></i></a>
     <a href="https://www.x.com/_zhecui" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter-x"></i></a>
     <a href="https://www.linkedin.com/in/cuizhe" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -218,7 +176,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#skills" id="toc-skills" class="nav-link active" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#industry-experience" id="toc-industry-experience" class="nav-link" data-scroll-target="#industry-experience">Industry Experience</a>
   <ul class="collapse">
   <li><a href="#senior-applied-scientist-snap-2024present-seattle-wa" id="toc-senior-applied-scientist-snap-2024present-seattle-wa" class="nav-link" data-scroll-target="#senior-applied-scientist-snap-2024present-seattle-wa">Senior Applied Scientist, Snap (2024–present) | Seattle, WA</a></li>
@@ -253,7 +212,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 10, 2026</p>
+      <p class="date">July 22, 2026</p>
     </div>
   </div>
   
@@ -265,12 +224,16 @@ window.Quarto = {
 </header>
 
 
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Applied scientist specializing in <strong>the evaluation of AI systems through human feedback and LLM-as-judge</strong>. I <strong>found and drive</strong> cross-functional initiatives that turn sparse, self-selected human judgments into trustworthy, bias-aware learning and evaluation signals, and that <strong>validate LLM judges against human ground truth</strong> for policy-sensitive content. My work spans establishing measurement validity, characterizing and correcting selection bias, modeling sparse labels into dense predictions, and designing evaluation sets, adjudication protocols, and drift monitoring. Deep background in large-scale ML, causal inference, and experimentation, with a track record of <strong>leading evaluation methodology from initial vision through production adoption</strong> across data science, engineering, product, and ranking teams.</p>
+</section>
 <section id="skills" class="level2">
 <h2 class="anchored" data-anchor-id="skills">Skills</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 93%">
+<col style="width: 11%">
+<col style="width: 88%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -280,20 +243,16 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Programming</td>
-<td>Python, SQL, R, Scala, C/C++</td>
+<td>Evaluation</td>
+<td>LLM Evaluation &amp; LLM-as-Judge, Human Preference &amp; Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen’s/Fleiss’ kappa, precision / recall), Reward/Preference Modeling</td>
 </tr>
 <tr class="even">
-<td>Domains</td>
-<td>Recommender Systems, Content Quality and Understanding, Multi-sided Marketplace, Ads &amp; Developer Ecosystem</td>
+<td>ML &amp; Statistics</td>
+<td>Machine Learning, Large Language Models, PyTorch, Causal Inference, Selection-Bias &amp; Propensity Modeling, Empirical Bayes, Design of Experiments, Large-scale Data Analysis</td>
 </tr>
 <tr class="odd">
-<td>Quantitative</td>
-<td>Machine Learning, MLOps, Statistics, Optimization, Large-scale Data Analysis, Causal Inference, Design of Experiments, Large Language Models, Data Modeling/ETL</td>
-</tr>
-<tr class="even">
-<td>Technologies</td>
-<td>PyTorch, Dataswarm/Airflow, Spark, Presto, Hive, Alerts/Monitoring, Dashboards, R Tidyverse (ggplot2, dplyr, tidymodels), Git/Mercurial, <span class="math inline">\LaTeX</span></td>
+<td>Programming</td>
+<td>Python, SQL, R</td>
 </tr>
 </tbody>
 </table>
@@ -302,11 +261,14 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="industry-experience">Industry Experience</h2>
 <section id="senior-applied-scientist-snap-2024present-seattle-wa" class="level3">
 <h3 class="anchored" data-anchor-id="senior-applied-scientist-snap-2024present-seattle-wa">Senior Applied Scientist, Snap (2024–present) | Seattle, WA</h3>
+<p>Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional initiatives on evaluation and human feedback for large-scale recommendation and content-understanding systems — from business case through production adoption — setting technical direction hands-on and aligning backend, client, product, ranking, and UX partners through influence rather than positional authority.</p>
 <ul>
-<li><strong>Human Feedback and Preference Systems</strong>: Owned the design and rollout of Snapchat’s first large-scale, content-level in-app survey system, defining preference dimensions, ceiling tests, and response models to convert user feedback into durable learning signals.</li>
-<li><strong>LLM Evaluation and Standards</strong>: Established evaluation methodology and reference tooling for LLM-powered content understanding, including preference-based metrics and model–human disagreement diagnostics used to guide deployment and iteration decisions.</li>
-<li><strong>Content Quality and Ranking Systems</strong>: Set the technical direction for integrating human feedback, LLM-based understanding, and evaluation signals into short-form video and Discover ranking and policy decisions.</li>
-<li><strong>Content Ecosystem Strategy</strong>: Defined content quality and ranking strategy at the ecosystem level by translating human preference signals and model evaluation insights into executive decisions on product direction, growth tradeoffs, and platform health.</li>
+<li><strong>Founded &amp; lead human-feedback measurement at scale</strong>: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable evaluation signals, framing the data-generating process (random assignment vs.&nbsp;self-selected response) to isolate where bias enters.</li>
+<li><strong>Owned the evaluation validity framework</strong>: Established construct, convergent, discriminant, and incremental validity — proving the signal measures the intended latent construct, not a gameable behavioral proxy — plus model–human disagreement diagnostics to guide deployment.</li>
+<li><strong>Directed bias characterization &amp; correction</strong>: Reframed responder self-selection as a missing-label (not sampling) problem; modeled it with propensity models, verified covariate balance, and showed low- vs high-propensity labelers rank content consistently, so the signal generalizes beyond responders.</li>
+<li><strong>Architected sparse-to-dense label modeling</strong>: Designed a two-head multi-task model (selection × judgment) to extend sparse labels to every instance, with a hierarchical Empirical-Bayes estimator as an immediately usable bridge under label sparsity and cold-start.</li>
+<li><strong>Founded &amp; lead LLM-as-judge evaluation for content safety</strong>: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas — dual eval sets (taxonomy coverage vs.&nbsp;production hard cases), blind multi-reviewer adjudication (Cohen’s/Fleiss’ kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → launch/monitoring (coverage, drift) metrics. Delivered as a transferable playbook (rubric, versioned benchmarks, prompt + output schema, error analysis, drift monitoring) so new policy areas are an iteration, not a new project.</li>
+<li><strong>Translated measurement into strategy</strong>: Applied the signal to quantify user-value tradeoffs engagement metrics alone could not resolve, reframing a broad growth question into a targeted, quality-aware one that shaped ranking and retrieval.</li>
 </ul>
 </section>
 <section id="data-scientist-meta-20172023-seattle-wa" class="level3">

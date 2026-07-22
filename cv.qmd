@@ -1,28 +1,36 @@
 ---
 title: "CV"
 author: "Zhe Cui"
-date: 2026-02-10
+date: 2026-07-22
 format:
     html:
         theme: flatly
         toc: true
         html-math-method: katex
 ---
+
+## Summary
+
+Applied scientist specializing in **the evaluation of AI systems through human feedback and LLM-as-judge**. I **found and drive** cross-functional initiatives that turn sparse, self-selected human judgments into trustworthy, bias-aware learning and evaluation signals, and that **validate LLM judges against human ground truth** for policy-sensitive content. My work spans establishing measurement validity, characterizing and correcting selection bias, modeling sparse labels into dense predictions, and designing evaluation sets, adjudication protocols, and drift monitoring. Deep background in large-scale ML, causal inference, and experimentation, with a track record of **leading evaluation methodology from initial vision through production adoption** across data science, engineering, product, and ranking teams.
+
 ## Skills
-| Category      | Details |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Programming  | Python, SQL, R, Scala, C/C++ |
-| Domains      | Recommender Systems, Content Quality and Understanding, Multi-sided Marketplace, Ads & Developer Ecosystem |
-| Quantitative | Machine Learning, MLOps, Statistics, Optimization, Large-scale Data Analysis, Causal Inference, Design of Experiments, Large Language Models, Data Modeling/ETL |
-| Technologies | PyTorch, Dataswarm/Airflow, Spark, Presto, Hive, Alerts/Monitoring, Dashboards, R Tidyverse (ggplot2, dplyr, tidymodels), Git/Mercurial, $\LaTeX$ |
+| Category         | Details |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Evaluation       | LLM Evaluation & LLM-as-Judge, Human Preference & Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen's/Fleiss' kappa, precision / recall), Reward/Preference Modeling |
+| ML & Statistics  | Machine Learning, Large Language Models, PyTorch, Causal Inference, Selection-Bias & Propensity Modeling, Empirical Bayes, Design of Experiments, Large-scale Data Analysis |
+| Programming      | Python, SQL, R |
 
 ## Industry Experience 
 
 ### Senior Applied Scientist, Snap (2024–present) | Seattle, WA
-* **Human Feedback and Preference Systems**: Owned the design and rollout of Snapchat’s first large-scale, content-level in-app survey system, defining preference dimensions, ceiling tests, and response models to convert user feedback into durable learning signals.
-* **LLM Evaluation and Standards**: Established evaluation methodology and reference tooling for LLM-powered content understanding, including preference-based metrics and model–human disagreement diagnostics used to guide deployment and iteration decisions.
-* **Content Quality and Ranking Systems**: Set the technical direction for integrating human feedback, LLM-based understanding, and evaluation signals into short-form video and Discover ranking and policy decisions.
-* **Content Ecosystem Strategy**: Defined content quality and ranking strategy at the ecosystem level by translating human preference signals and model evaluation insights into executive decisions on product direction, growth tradeoffs, and platform health.
+Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional initiatives on evaluation and human feedback for large-scale recommendation and content-understanding systems — from business case through production adoption — setting technical direction hands-on and aligning backend, client, product, ranking, and UX partners through influence rather than positional authority.
+
+* **Founded & lead human-feedback measurement at scale**: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable evaluation signals, framing the data-generating process (random assignment vs. self-selected response) to isolate where bias enters.
+* **Owned the evaluation validity framework**: Established construct, convergent, discriminant, and incremental validity — proving the signal measures the intended latent construct, not a gameable behavioral proxy — plus model–human disagreement diagnostics to guide deployment.
+* **Directed bias characterization & correction**: Reframed responder self-selection as a missing-label (not sampling) problem; modeled it with propensity models, verified covariate balance, and showed low- vs high-propensity labelers rank content consistently, so the signal generalizes beyond responders.
+* **Architected sparse-to-dense label modeling**: Designed a two-head multi-task model (selection × judgment) to extend sparse labels to every instance, with a hierarchical Empirical-Bayes estimator as an immediately usable bridge under label sparsity and cold-start.
+* **Founded & lead LLM-as-judge evaluation for content safety**: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas — dual eval sets (taxonomy coverage vs. production hard cases), blind multi-reviewer adjudication (Cohen's/Fleiss' kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → launch/monitoring (coverage, drift) metrics. Delivered as a transferable playbook (rubric, versioned benchmarks, prompt + output schema, error analysis, drift monitoring) so new policy areas are an iteration, not a new project.
+* **Translated measurement into strategy**: Applied the signal to quantify user-value tradeoffs engagement metrics alone could not resolve, reframing a broad growth question into a targeted, quality-aware one that shaped ranking and retrieval.
 
 ### Data Scientist, Meta (2017–2023) | Seattle, WA
 
