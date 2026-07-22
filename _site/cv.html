@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Applied scientist specializing in <strong>the evaluation of AI systems through human feedback and LLM-as-judge</strong>. I <strong>found and drive</strong> cross-functional initiatives that turn sparse, self-selected human judgments into trustworthy, bias-aware learning and evaluation signals, and that <strong>validate LLM judges against human ground truth</strong> for policy-sensitive content. My work spans establishing measurement validity, characterizing and correcting selection bias, modeling sparse labels into dense predictions, and designing evaluation sets, adjudication protocols, and drift monitoring. Deep background in large-scale ML, causal inference, and experimentation, with a track record of <strong>leading evaluation methodology from initial vision through production adoption</strong> across data science, engineering, product, and ranking teams.</p>
+<p>Applied scientist focused on <strong>designing measurement systems that align large-scale ML with human preferences</strong> — human-feedback data, LLM-as-judge, and the evaluation methodology that decides whether models are good enough to ship. I <strong>found and drive</strong> cross-functional initiatives that turn sparse, self-selected human judgments into bias-aware <strong>ground truth</strong>, and <strong>validate LLM judges against human ground truth</strong> across policy areas, languages, and cultures — spanning measurement validity, selection-bias correction, sparse-to-dense label modeling, and <strong>benchmark</strong> design, adjudication, and drift monitoring. Built on deep production-ML experience — retrieval, ranking, reranking, experimentation, causal inference — the components now central to RAG, tool selection, and judge ensembles.</p>
 </section>
 <section id="skills" class="level2">
 <h2 class="anchored" data-anchor-id="skills">Skills</h2>
@@ -244,13 +244,17 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Evaluation</td>
-<td>LLM Evaluation &amp; LLM-as-Judge, Human Preference &amp; Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen’s/Fleiss’ kappa, precision / recall), Reward/Preference Modeling</td>
+<td>LLM Evaluation &amp; LLM-as-Judge, Human Preference &amp; Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen’s/Fleiss’ kappa, precision / recall), Benchmark Design, Drift Monitoring</td>
 </tr>
 <tr class="even">
 <td>ML &amp; Statistics</td>
-<td>Machine Learning, Large Language Models, PyTorch, Causal Inference, Selection-Bias &amp; Propensity Modeling, Empirical Bayes, Design of Experiments, Large-scale Data Analysis</td>
+<td>Foundation Models, PyTorch, Causal Inference, Selection-Bias &amp; Propensity Modeling, Empirical Bayes, Experimental Design, Reward/Preference Modeling</td>
 </tr>
 <tr class="odd">
+<td>Domains</td>
+<td>Recommender Systems, Ranking &amp; Retrieval, Multi-objective Optimization, Long-term Value Measurement, Multilingual &amp; Cross-Cultural Evaluation</td>
+</tr>
+<tr class="even">
 <td>Programming</td>
 <td>Python, SQL, R</td>
 </tr>
@@ -261,32 +265,30 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="industry-experience">Industry Experience</h2>
 <section id="senior-applied-scientist-snap-2024present-seattle-wa" class="level3">
 <h3 class="anchored" data-anchor-id="senior-applied-scientist-snap-2024present-seattle-wa">Senior Applied Scientist, Snap (2024–present) | Seattle, WA</h3>
-<p>Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional initiatives on evaluation and human feedback for large-scale recommendation and content-understanding systems — from business case through production adoption — setting technical direction hands-on and aligning backend, client, product, ranking, and UX partners through influence rather than positional authority.</p>
+<p>Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional evaluation and human-feedback initiatives from business case through production adoption — setting technical direction hands-on and aligning engineering, product, ranking, and UX partners through influence, not authority.</p>
 <ul>
-<li><strong>Founded &amp; lead human-feedback measurement at scale</strong>: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable evaluation signals, framing the data-generating process (random assignment vs.&nbsp;self-selected response) to isolate where bias enters.</li>
+<li><strong>Founded &amp; lead human-feedback measurement at scale</strong>: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable ground truth for evaluating content-understanding and ranking models, framing the data-generating process (random assignment vs.&nbsp;self-selected response) to isolate where bias enters.</li>
 <li><strong>Owned the evaluation validity framework</strong>: Established construct, convergent, discriminant, and incremental validity — proving the signal measures the intended latent construct, not a gameable behavioral proxy — plus model–human disagreement diagnostics to guide deployment.</li>
 <li><strong>Directed bias characterization &amp; correction</strong>: Reframed responder self-selection as a missing-label (not sampling) problem; modeled it with propensity models, verified covariate balance, and showed low- vs high-propensity labelers rank content consistently, so the signal generalizes beyond responders.</li>
 <li><strong>Architected sparse-to-dense label modeling</strong>: Designed a two-head multi-task model (selection × judgment) to extend sparse labels to every instance, with a hierarchical Empirical-Bayes estimator as an immediately usable bridge under label sparsity and cold-start.</li>
-<li><strong>Founded &amp; lead LLM-as-judge evaluation for content safety</strong>: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas — dual eval sets (taxonomy coverage vs.&nbsp;production hard cases), blind multi-reviewer adjudication (Cohen’s/Fleiss’ kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → launch/monitoring (coverage, drift) metrics. Delivered as a transferable playbook (rubric, versioned benchmarks, prompt + output schema, error analysis, drift monitoring) so new policy areas are an iteration, not a new project.</li>
-<li><strong>Translated measurement into strategy</strong>: Applied the signal to quantify user-value tradeoffs engagement metrics alone could not resolve, reframing a broad growth question into a targeted, quality-aware one that shaped ranking and retrieval.</li>
+<li><strong>Founded &amp; lead LLM-as-judge evaluation for content safety</strong>: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas and <strong>multiple languages, regions, and cultures</strong> — where “appropriate” is viewer- and locale-dependent, not a fixed rule. Anchored on dual benchmark sets (taxonomy coverage vs.&nbsp;production hard cases), blind multi-reviewer adjudication (Cohen’s/Fleiss’ kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → drift-monitoring metrics — delivered as a transferable playbook so new policies and locales are an iteration, not a new project.</li>
+<li><strong>Linked evaluation to model quality</strong>: Used the human-preference signal as an offline/online evaluation lens on production ranking — quantifying value tradeoffs behavioral metrics miss and surfacing content that engagement over-rewards.</li>
 </ul>
 </section>
 <section id="data-scientist-meta-20172023-seattle-wa" class="level3">
 <h3 class="anchored" data-anchor-id="data-scientist-meta-20172023-seattle-wa">Data Scientist, Meta (2017–2023) | Seattle, WA</h3>
+<p>Where I learned to build and evaluate large-scale ML systems — through experimentation, causal inference, and personalization.</p>
 <ul>
-<li><strong>Improved Advertiser Reliability Metric by 50% with Real-time Machine Learning</strong>: End-to-end development, deployment, and monitoring of GBDT models to predict API requests likely to OOM and timeout, dispatching expensive requests to an async tier. Reduced daily advertiser API errors from 6–7% to 3%.</li>
-<li><strong>Reduced Ads API Query Latency (p99) by 10%</strong>: Applied observational causal inference via propensity score modeling and regression discontinuity to identify features most impactful for slow queries and prioritized fixes with SWE teams.</li>
-<li><strong>Predicted Errors Blocking Advertisers</strong>: Analyzed and modeled Ads Manager session data to identify error patterns predictive of uncompleted ad creation; findings informed roadmap planning and documentation improvements.</li>
-<li><strong>Developed Framework to Estimate Revenue Impact of API Errors</strong>: Quantified ad spend loss due to campaign failures to evaluate business impact of SEVs and regressions.</li>
-<li><strong>Personalization &amp; Recommender Systems</strong>: Led hypothesis-driven analyses and experiments to enhance Facebook App Navigation and Groups Ranking using two-tower neural network models.</li>
+<li><strong>Ranking, Retrieval &amp; Personalization</strong>: Improved Facebook App Navigation and Groups ranking with two-tower neural retrieval models, evaluated through online experiments and implicit/explicit feedback — the offline/online evaluation and feedback-loop patterns now central to RAG, reranking, and judge ensembles.</li>
+<li><strong>Causal Inference for Query Latency</strong>: Applied observational causal inference (propensity-score modeling, regression discontinuity) to isolate the features most responsible for slow Ads API queries and prioritize fixes, reducing p99 latency ~10%.</li>
+<li><strong>Real-time Reliability Modeling</strong>: Built, deployed, and monitored GBDT models predicting API requests likely to OOM/timeout, routing expensive requests to an async tier — cutting daily advertiser API errors from 6–7% to 3%.</li>
+<li><strong>Failure-Pattern &amp; Impact Analysis</strong>: Modeled Ads Manager session data to find error patterns predictive of uncompleted ad creation, and quantified ad-spend loss from campaign failures to prioritize incidents and regressions.</li>
 </ul>
 </section>
 <section id="data-scientist-bell-canada-20152017-toronto-on-canada" class="level3">
 <h3 class="anchored" data-anchor-id="data-scientist-bell-canada-20152017-toronto-on-canada">Data Scientist, Bell Canada (2015–2017) | Toronto, ON, Canada</h3>
 <ul>
-<li><strong>Customer Journey Analytics</strong>: Designed and implemented an Apache Spark algorithm to model event data for funnel analysis and pattern mining; used derived features to improve churn prediction lift by 20%.</li>
-<li><strong>Customer Churn Prediction</strong>: Built Random Forest, GBDT, neural network, GLM, and ensemble models to score churn risk and inform targeted retention offers.</li>
-<li><strong>Improved Retail Store Internet Speed 10×</strong>: Identified outdated connections in demo units, built a business case to upgrade to fiber internet, reducing new customer signup time by 50%.</li>
+<li><strong>Churn Modeling &amp; Customer-Journey Analytics</strong>: Built ensemble churn models (Random Forest, GBDT, neural nets, GLMs) for targeted retention, and a Spark funnel/pattern-mining pipeline whose derived features lifted churn prediction by 20%.</li>
 </ul>
 </section>
 <section id="research-assistant-university-of-toronto-20122015-toronto-on-canada" class="level3">

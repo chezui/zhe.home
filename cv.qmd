@@ -11,40 +11,39 @@ format:
 
 ## Summary
 
-Applied scientist specializing in **the evaluation of AI systems through human feedback and LLM-as-judge**. I **found and drive** cross-functional initiatives that turn sparse, self-selected human judgments into trustworthy, bias-aware learning and evaluation signals, and that **validate LLM judges against human ground truth** for policy-sensitive content. My work spans establishing measurement validity, characterizing and correcting selection bias, modeling sparse labels into dense predictions, and designing evaluation sets, adjudication protocols, and drift monitoring. Deep background in large-scale ML, causal inference, and experimentation, with a track record of **leading evaluation methodology from initial vision through production adoption** across data science, engineering, product, and ranking teams.
+Applied scientist focused on **designing measurement systems that align large-scale ML with human preferences** — human-feedback data, LLM-as-judge, and the evaluation methodology that decides whether models are good enough to ship. I **found and drive** cross-functional initiatives that turn sparse, self-selected human judgments into bias-aware **ground truth**, and **validate LLM judges against human ground truth** across policy areas, languages, and cultures — spanning measurement validity, selection-bias correction, sparse-to-dense label modeling, and **benchmark** design, adjudication, and drift monitoring. Built on deep production-ML experience — retrieval, ranking, reranking, experimentation, causal inference — the components now central to RAG, tool selection, and judge ensembles.
 
 ## Skills
-| Category         | Details |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Evaluation       | LLM Evaluation & LLM-as-Judge, Human Preference & Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen's/Fleiss' kappa, precision / recall), Reward/Preference Modeling |
-| ML & Statistics  | Machine Learning, Large Language Models, PyTorch, Causal Inference, Selection-Bias & Propensity Modeling, Empirical Bayes, Design of Experiments, Large-scale Data Analysis |
-| Programming      | Python, SQL, R |
+| Category        | Details |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Evaluation      | LLM Evaluation & LLM-as-Judge, Human Preference & Feedback Data, Measurement Validity (construct / convergent / discriminant / incremental), Model–Human Agreement (Cohen's/Fleiss' kappa, precision / recall), Benchmark Design, Drift Monitoring |
+| ML & Statistics | Foundation Models, PyTorch, Causal Inference, Selection-Bias & Propensity Modeling, Empirical Bayes, Experimental Design, Reward/Preference Modeling |
+| Domains         | Recommender Systems, Ranking & Retrieval, Multi-objective Optimization, Long-term Value Measurement, Multilingual & Cross-Cultural Evaluation |
+| Programming     | Python, SQL, R |
 
 ## Industry Experience 
 
 ### Senior Applied Scientist, Snap (2024–present) | Seattle, WA
-Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional initiatives on evaluation and human feedback for large-scale recommendation and content-understanding systems — from business case through production adoption — setting technical direction hands-on and aligning backend, client, product, ranking, and UX partners through influence rather than positional authority.
+Individual contributor and technical lead. Originated and drove multiple multi-quarter, cross-functional evaluation and human-feedback initiatives from business case through production adoption — setting technical direction hands-on and aligning engineering, product, ranking, and UX partners through influence, not authority.
 
-* **Founded & lead human-feedback measurement at scale**: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable evaluation signals, framing the data-generating process (random assignment vs. self-selected response) to isolate where bias enters.
+* **Founded & lead human-feedback measurement at scale**: Built and shipped a production system converting sparse, self-selected human preference judgments into reliable ground truth for evaluating content-understanding and ranking models, framing the data-generating process (random assignment vs. self-selected response) to isolate where bias enters.
 * **Owned the evaluation validity framework**: Established construct, convergent, discriminant, and incremental validity — proving the signal measures the intended latent construct, not a gameable behavioral proxy — plus model–human disagreement diagnostics to guide deployment.
 * **Directed bias characterization & correction**: Reframed responder self-selection as a missing-label (not sampling) problem; modeled it with propensity models, verified covariate balance, and showed low- vs high-propensity labelers rank content consistently, so the signal generalizes beyond responders.
 * **Architected sparse-to-dense label modeling**: Designed a two-head multi-task model (selection × judgment) to extend sparse labels to every instance, with a hierarchical Empirical-Bayes estimator as an immediately usable bridge under label sparsity and cold-start.
-* **Founded & lead LLM-as-judge evaluation for content safety**: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas — dual eval sets (taxonomy coverage vs. production hard cases), blind multi-reviewer adjudication (Cohen's/Fleiss' kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → launch/monitoring (coverage, drift) metrics. Delivered as a transferable playbook (rubric, versioned benchmarks, prompt + output schema, error analysis, drift monitoring) so new policy areas are an iteration, not a new project.
-* **Translated measurement into strategy**: Applied the signal to quantify user-value tradeoffs engagement metrics alone could not resolve, reframing a broad growth question into a targeted, quality-aware one that shaped ranking and retrieval.
+* **Founded & lead LLM-as-judge evaluation for content safety**: Built a reusable judge capability validating LLM decisions against human ground truth across policy areas and **multiple languages, regions, and cultures** — where "appropriate" is viewer- and locale-dependent, not a fixed rule. Anchored on dual benchmark sets (taxonomy coverage vs. production hard cases), blind multi-reviewer adjudication (Cohen's/Fleiss' kappa), and staged human-agreement → judge-alignment (precision/recall, FPR/FNR) → drift-monitoring metrics — delivered as a transferable playbook so new policies and locales are an iteration, not a new project.
+* **Linked evaluation to model quality**: Used the human-preference signal as an offline/online evaluation lens on production ranking — quantifying value tradeoffs behavioral metrics miss and surfacing content that engagement over-rewards.
 
 ### Data Scientist, Meta (2017–2023) | Seattle, WA
+Where I learned to build and evaluate large-scale ML systems — through experimentation, causal inference, and personalization.
 
-* **Improved Advertiser Reliability Metric by 50% with Real-time Machine Learning**: End-to-end development, deployment, and monitoring of GBDT models to predict API requests likely to OOM and timeout, dispatching expensive requests to an async tier. Reduced daily advertiser API errors from 6–7% to 3%.
-* **Reduced Ads API Query Latency (p99) by 10%**: Applied observational causal inference via propensity score modeling and regression discontinuity to identify features most impactful for slow queries and prioritized fixes with SWE teams.
-* **Predicted Errors Blocking Advertisers**: Analyzed and modeled Ads Manager session data to identify error patterns predictive of uncompleted ad creation; findings informed roadmap planning and documentation improvements.
-* **Developed Framework to Estimate Revenue Impact of API Errors**: Quantified ad spend loss due to campaign failures to evaluate business impact of SEVs and regressions.
-* **Personalization & Recommender Systems**: Led hypothesis-driven analyses and experiments to enhance Facebook App Navigation and Groups Ranking using two-tower neural network models.
+* **Ranking, Retrieval & Personalization**: Improved Facebook App Navigation and Groups ranking with two-tower neural retrieval models, evaluated through online experiments and implicit/explicit feedback — the offline/online evaluation and feedback-loop patterns now central to RAG, reranking, and judge ensembles.
+* **Causal Inference for Query Latency**: Applied observational causal inference (propensity-score modeling, regression discontinuity) to isolate the features most responsible for slow Ads API queries and prioritize fixes, reducing p99 latency ~10%.
+* **Real-time Reliability Modeling**: Built, deployed, and monitored GBDT models predicting API requests likely to OOM/timeout, routing expensive requests to an async tier — cutting daily advertiser API errors from 6–7% to 3%.
+* **Failure-Pattern & Impact Analysis**: Modeled Ads Manager session data to find error patterns predictive of uncompleted ad creation, and quantified ad-spend loss from campaign failures to prioritize incidents and regressions.
 
 ### Data Scientist, Bell Canada (2015–2017) | Toronto, ON, Canada
 
-* **Customer Journey Analytics**: Designed and implemented an Apache Spark algorithm to model event data for funnel analysis and pattern mining; used derived features to improve churn prediction lift by 20%.
-* **Customer Churn Prediction**: Built Random Forest, GBDT, neural network, GLM, and ensemble models to score churn risk and inform targeted retention offers.
-* **Improved Retail Store Internet Speed 10×**: Identified outdated connections in demo units, built a business case to upgrade to fiber internet, reducing new customer signup time by 50%.
+* **Churn Modeling & Customer-Journey Analytics**: Built ensemble churn models (Random Forest, GBDT, neural nets, GLMs) for targeted retention, and a Spark funnel/pattern-mining pipeline whose derived features lifted churn prediction by 20%.
 
 ### Research Assistant, University of Toronto (2012–2015) | Toronto, ON, Canada
 
