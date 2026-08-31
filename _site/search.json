@@ -7,6 +7,13 @@
     "text": "Applied scientist focused on designing measurement systems that align large-scale ML with human preferences — human-feedback data, LLM-as-judge, and the evaluation methodology that decides whether models are good enough to ship. I found and drive cross-functional initiatives that turn sparse, self-selected human judgments into bias-aware ground truth, and validate LLM judges against human ground truth across policy areas, languages, and cultures — spanning measurement validity, selection-bias correction, sparse-to-dense label modeling, and benchmark design, adjudication, and drift monitoring. Built on deep production-ML experience — retrieval, ranking, reranking, experimentation, causal inference — the components now central to RAG, tool selection, and judge ensembles."
   },
   {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "CV",
+    "section": "",
+    "text": "Applied scientist focused on designing measurement systems that align large-scale ML with human preferences — human-feedback data, LLM-as-judge, and the evaluation methodology that decides whether models are good enough to ship. I found and drive cross-functional initiatives that turn sparse, self-selected human judgments into bias-aware ground truth, and validate LLM judges against human ground truth across policy areas, languages, and cultures — spanning measurement validity, selection-bias correction, sparse-to-dense label modeling, and benchmark design, adjudication, and drift monitoring. Built on deep production-ML experience — retrieval, ranking, reranking, experimentation, causal inference — the components now central to RAG, tool selection, and judge ensembles."
+  },
+  {
     "objectID": "cv.html#skills",
     "href": "cv.html#skills",
     "title": "CV",
@@ -28,13 +35,6 @@
     "text": "Education\n\nMasters of Applied Science, Electrical Engineering, University of Toronto (2012–2015) Thesis: Resource Allocation in Backhaul Constrained Small-Cell Networks, Grade A\nBachelor of Applied Science, Electrical Engineering, University of Waterloo (2007–2012), Honors First Class\nInternational Exchange, Electrical Engineering, National University of Singapore (2010)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Zhe Cui (崔哲)",
-    "section": "",
-    "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.\nI like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.\nIf any of that sounds interesting, stick around.\nI’m always interested in connecting with like minded folks: feel free to reach me on X, LinkedIn or use the form below.\n\n\n\n\n\n\nContact Me\n\n\n\n\n\n\n\n\n\n\nName:\n\n\n\n\n\n\n\nEmail:\n\n\n\n\n\n\n\nMessage:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSend"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Zhe Cui (崔哲)",
@@ -42,24 +42,10 @@
     "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.\nI like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.\nIf any of that sounds interesting, stick around.\nI’m always interested in connecting with like minded folks: feel free to reach me on X and LinkedIn."
   },
   {
-    "objectID": "cv.html#summary",
-    "href": "cv.html#summary",
-    "title": "CV",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zhe Cui (崔哲)",
     "section": "",
-    "text": "Applied scientist focused on designing measurement systems that align large-scale ML with human preferences — human-feedback data, LLM-as-judge, and the evaluation methodology that decides whether models are good enough to ship. I found and drive cross-functional initiatives that turn sparse, self-selected human judgments into bias-aware ground truth, and validate LLM judges against human ground truth across policy areas, languages, and cultures — spanning measurement validity, selection-bias correction, sparse-to-dense label modeling, and benchmark design, adjudication, and drift monitoring. Built on deep production-ML experience — retrieval, ranking, reranking, experimentation, causal inference — the components now central to RAG, tool selection, and judge ensembles."
-  },
-  {
-    "objectID": "cv.html#research-technical-interests",
-    "href": "cv.html#research-technical-interests",
-    "title": "CV",
-    "section": "Research & Technical Interests",
-    "text": "Research & Technical Interests\nAI Evaluation · LLM-as-Judge · Human Preference Learning · Benchmark Design · Multilingual & Cross-Cultural Evaluation · Scalable Human Feedback · Measurement Validity & Evaluator Reliability · Selection Bias in Labeled Data · Model Alignment"
-  },
-  {
-    "objectID": "cv.html#areas-of-expertise",
-    "href": "cv.html#areas-of-expertise",
-    "title": "CV",
-    "section": "Areas of Expertise",
-    "text": "Areas of Expertise\nLLM Evaluation & Benchmark Design · Human Preference Modeling & Scalable Human Feedback · Multilingual & Cross-Cultural Evaluation · Recommender Systems, Ranking & Retrieval · Offline/Online & Causal Evaluation · Selection Bias & Measurement Validity · Multi-objective & Long-term Value Optimization · Model Alignment"
+    "text": "Pronunciation 🗣 Juh Sway\n\n\n\nHello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.\nI like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.\nIf any of that sounds interesting, stick around.\nI’m always interested in connecting with like minded folks: feel free to reach me on X, LinkedIn or use the form below.\n\n\n\n\n\n\nNoteContact Me\n\n\n\n\n\n\n\n\n\n\nName:\n\n\n\n\n\n\n\nEmail:\n\n\n\n\n\n\n\nMessage:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSend"
   }
 ]

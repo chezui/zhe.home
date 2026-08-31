@@ -2,6 +2,7 @@
 title: "CV"
 author: "Zhe Cui"
 date: 2026-07-22
+description: "Curriculum vitae of Zhe Cui (崔哲) — measurement systems, LLM-as-judge validation, and evaluation methodology for large-scale ML."
 format:
     html:
         theme: flatly

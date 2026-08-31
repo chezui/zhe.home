@@ -8,3 +8,11 @@ p {
 body {
       font-family: "Computer Modern Sans", sans-serif;
 }
+
+/* Quarto zeroes the trestles top padding below 992px, which leaves the portrait
+   flush against the navbar once the layout stacks. Needs !important to win. */
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles {
+    padding-top: 1.5em !important;
+  }
+}

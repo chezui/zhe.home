@@ -25,7 +25,10 @@ website:
         link-external-newwindow: true
   repo-url: https://github.com/chezui/zhe.home
   draft-mode: unlinked
-  twitter-card: true
+  image: mug.png
+  twitter-card:
+    card-style: summary
+    creator: "@_zhecui"
   open-graph: true
   site-url: https://zhecui.ca
 

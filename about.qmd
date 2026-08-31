@@ -1,6 +1,8 @@
 ---
 title: "Zhe Cui (崔哲)"
-description: "Data Science at Snap Inc. Writings on AI, Machine Learning, and Recommender Systems."
+description: "Senior Applied Scientist at Snap Inc., working on AI evaluation and measurement science."
+description-meta: "About Zhe Cui (崔哲) — Senior Applied Scientist at Snap Inc., working on AI evaluation and measurement science."
+image: mug.png
 about:
   template: trestles
   links:
