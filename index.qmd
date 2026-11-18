@@ -27,6 +27,8 @@ function playAudio() {
 
 Hello, I’m Zhe Cui (崔哲). I build things, analyze things, and occasionally break things in the pursuit of making them better.
 
+My work focuses on evaluating AI systems against human preferences, drawing on experience in human feedback, recommender systems, ranking, and causal inference.
+
 I like problems that don’t have obvious answers. I like asking why something works, why it doesn’t, and how it could be better. This blog is where I think out loud—about AI, data science, engineering, and the occasional side project.
 
 If any of that sounds interesting, stick around.
