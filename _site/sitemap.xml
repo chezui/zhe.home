@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zhecui.ca/cv.html</loc>
+    <loc>https://zhecui.ca/cv</loc>
     <lastmod>2026-11-18T12:26:28.285Z</lastmod>
   </url>
   <url>
-    <loc>https://zhecui.ca/index.html</loc>
-    <lastmod>2026-11-18T12:26:28.286Z</lastmod>
+    <loc>https://zhecui.ca/</loc>
+    <lastmod>2026-11-18T12:45:54.359Z</lastmod>
   </url>
 </urlset>

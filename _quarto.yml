@@ -1,5 +1,6 @@
 project:
   type: website
+  post-render: scripts/post-render-seo.py
   resources:
     - "*.mp3"
     - "_redirects"
