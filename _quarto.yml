@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "*.mp3"
+    - "_redirects"
 
 website:
   title: "Zhe Cui (崔哲)"
